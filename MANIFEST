@@ -1,0 +1,10 @@
+Build.PL
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README.mkdn
+dist.ini
+lib/Beam/Wire/Moose.pm
+t/00_compile.t
+t/with.t

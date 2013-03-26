@@ -1,0 +1,22 @@
+---
+abstract: 'Dependency Injection with extra Moose features'
+author:
+  - 'Doug Bell <preaction@cpan.org>'
+build_requires:
+  Module::Build: 0.3601
+  Test::Compile: 0
+  Test::Most: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+  Module::Build: 0.3601
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Beam-Wire-Moose
+requires:
+  Beam::Wire: 0.004
+  Moose: 0
+version: 0.001
