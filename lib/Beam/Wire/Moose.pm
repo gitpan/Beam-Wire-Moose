@@ -1,6 +1,6 @@
 package Beam::Wire::Moose;
 {
-  $Beam::Wire::Moose::VERSION = '0.001';
+  $Beam::Wire::Moose::VERSION = '0.002';
 }
 
 use Moose;

@@ -28,7 +28,7 @@ my %WriteMakefileArgs = (
     "Beam::Wire" => "0.004",
     "Moose" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
