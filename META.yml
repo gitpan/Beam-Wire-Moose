@@ -10,7 +10,7 @@ configure_requires:
   ExtUtils::MakeMaker: 6.30
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Dist::Zilla version 4.300035, CPAN::Meta::Converter version 2.131560'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -23,4 +23,4 @@ resources:
   bugtracker: https://github.com/preaction/Beam-Wire-Moose/issues
   homepage: https://github.com/preaction/Beam-Wire-Moose
   repository: https://github.com/preaction/Beam-Wire-Moose.git
-version: 0.002
+version: 0.003

@@ -1,33 +1,31 @@
 ==================================================
-Changes from 2012-04-18 00:00:00 +0000 to present.
+Changes from 2013-04-27 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.002 at 2013-04-18 01:09:42 +0000
+version 0.003 at 2014-04-27 02:36:22 +0000
 ------------------------------------------
 
-  Change: d97b4411ac7520643dd0a4f29dd2d0be68f7584a
+  Change: 1d12ea58f4d037d57f5407a2c3c7bf24fba23547
   Author: Doug Bell <madcityzen@gmail.com>
-  Date : 2013-04-17 20:09:28 +0000
+  Date : 2014-04-26 21:36:08 +0000
 
-    update dist to be of higher kwalitee 
+    add contributing information 
 
-------------------------------------------
-version 0.001 at 2013-03-26 00:29:12 +0000
-------------------------------------------
-
-  Change: 7a6e938587527146f0160d31bce68aaa2135e595
+  Change: ae5d57f53862bb96c5cdd6999521586eaf764616
   Author: Doug Bell <madcityzen@gmail.com>
-  Date : 2013-03-25 19:29:12 +0000
+  Date : 2014-04-26 21:35:49 +0000
 
-    add README from POD 
+    update build artifacts 
 
-  Change: 612f6205a3ee3c9063c23b0dc21c6d202cefc2ee
+  Change: 633a0219e1db4fa31f58b40e3062c1793f1a9f8c
   Author: Doug Bell <madcityzen@gmail.com>
-  Date : 2013-03-25 19:28:41 +0000
+  Date : 2014-04-26 21:33:56 +0000
 
-    create Beam::Wire::Moose for class composition at runtime 
+    correct the sub signature for create_service
 
-================
-End of releases.
-================
+    When I added exception classes to Beam::Wire, I didn't fix this one. 
+
+================================================
+Plus 2 releases after 2013-04-27 00:00:00 +0000.
+================================================

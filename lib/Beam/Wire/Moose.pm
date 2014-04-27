@@ -1,6 +1,6 @@
 package Beam::Wire::Moose;
 {
-  $Beam::Wire::Moose::VERSION = '0.002';
+  $Beam::Wire::Moose::VERSION = '0.003';
 }
 
 use Moose;
@@ -8,7 +8,7 @@ use Moose::Meta::Class;
 extends 'Beam::Wire';
 
 around create_service => sub {
-    my ( $orig, $self, %service_info ) = @_;
+    my ( $orig, $self, $name, %service_info ) = @_;
     if ( my $roles = $service_info{with} ) {
         my @args = $self->parse_args( %service_info );
         my @roles = ref $roles eq 'ARRAY' ? @{$roles} : $roles;
@@ -19,7 +19,7 @@ around create_service => sub {
         );
         $service_info{class} = $meta->name;
     }
-    return $self->$orig( %service_info );
+    return $self->$orig( $name, %service_info );
 };
 
 1;
